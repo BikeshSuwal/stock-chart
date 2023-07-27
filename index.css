@@ -1,0 +1,40 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* margin: 5%; */
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+h2 {
+    padding: 20px;
+}
+#tvchart {
+    height: 350px;
+    width: 90%;
+    max-width: 800px;
+
+}
+@media screen and (max-width: 600px) {
+    #tvchart {
+        width: 90%;
+    }
+}
+
+.infotext {
+    margin: 50px;
+}
+/* .tv-lightweight-charts {
+    width: 90%;
+} */
+/* #tvchart2 {
+    height: 350px;
+    width: 600px;
+    max-width: 90%;
+
+} */
