@@ -1,5 +1,15 @@
 {
+  "homepage": "https://BikeshSuwal.github.io/stock-chart",
+  "name": "stock-chart",
   "dependencies": {
     "lightweight-charts": "^4.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
